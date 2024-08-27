@@ -1,22 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: HW Group C
--- Engineer/Author: Richard Jimenez G. 
--- 
--- Create Date: 16.06.2024 
--- Design Name: 
--- Module Name: V1
--- Project Name: Logical train ticket system
--- Target Devices: 
--- Tool Versions: 
--- Description: this code shows the behaviour of the system using different state machines where it asks the user to give an input in the keypad for origing, then it asks for a destination which both are given in Hex decimal numbers from 0001 to FFFF, meaning that there are more than sixty thousand of possible origins and destinations. All inputs and outputs will be shown in the 7*segment display. One of the output is the price calculation which is different between goind forward or going back certain number of representation of stations, which is supposed to show a number for distance rather than sequence in the route. In order to buy the ticket the user needs to pay the exact amount of the ticket price through switches, the switches represent a debit card for payment. The states of the user in the system is shown in LEDs, showing if it is in the first state throught the final. In the final state it is shown in RGB LEDs in green showing sucessful purchse. Also some additional push buttons help the user to add or substract the origin with respect of the destination, additionally to confirm to move forward the next state. Once all is successed it comes back to the initial state for a new user, the system also identifies some missmatched inputs from the user for example going back more distance than the origin is not accepted as the values must be between HEX 0000 and HEX FFFF.  
--- 
--- Dependencies: 
--- 
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: FSM and its VHDL desing in this main file is the result of own implementation based on available documentation and the project is not copied from any repository or generated in CHAT-GTP
--- 
-----------------------------------------------------------------------------------
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
