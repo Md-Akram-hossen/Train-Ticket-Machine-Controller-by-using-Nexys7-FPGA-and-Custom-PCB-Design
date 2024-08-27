@@ -1,22 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: HW Group C
--- Engineer/Author: Richard Jimenez G. 
--- 
--- Create Date: 10.06.2024 
--- Design Name: 
--- Module Name: Keypad_peripheral - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: It shows the X number that is pressed in the PMOD Keypad 1-F, once the key is not pressed anymore it shows still the X number in a 7-segment display. BTNC botton reset the displayed number.
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments: own implementation based on available documentation
--- 
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_unsigned.all;
