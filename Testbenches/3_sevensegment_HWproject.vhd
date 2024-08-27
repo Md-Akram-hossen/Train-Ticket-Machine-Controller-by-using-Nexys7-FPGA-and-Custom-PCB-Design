@@ -1,22 +1,3 @@
----------------------------------------------------------------------------------
--- Company: HW Group C
--- Engineer/Author: Richard Jimenez G. 
--- 
--- Create Date: 16.06.2024 
--- Design Name: 
--- Module Name: V1
--- Project Name: Logical train ticket system
--- Target Devices: 
--- Tool Versions: 
--- Description: this code works as a decoder driver for four 7-segment displays necessary for the HW project
---
--- Dependencies: 
--- 
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: Driver created based on available documentation
--- 
-----------------------------------------------------------------------------------
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 
