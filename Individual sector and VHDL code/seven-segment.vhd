@@ -1,23 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: HW Group C
--- Engineer/Author: Richard Jimenez G. 
--- 
--- Create Date: 10.06.2024 
--- Design Name: 
--- Module Name: Keypad_peripheral - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description:  this VHDL code is to be used for displaying the X number from the keypad in a 7-segment display
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments: own implementation based on available documentation
--- 
-----------------------------------------------------------------------------------
-
 library  IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
