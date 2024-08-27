@@ -1,33 +1,14 @@
-----------------------------------------------------------------------------------
--- Company: HW Group C
--- Engineer/Author: Richard Jimenez G.
--- 
--- Create Date: 26.07.2024 
--- Design Name: 
--- Module Name: keypadecod_tb
--- Project Name: Logical train ticket system
--- Target Devices: 
--- Tool Versions: 
--- Description: Test bench for keypadecod module
--- Dependencies: keypadecod.vhdl
--- 
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
--- 
-----------------------------------------------------------------------------------
-
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.NUMERIC_STD.ALL;
-
+t Declaration for the Unit Under Test (UUT)
+    COMPONENT k
 ENTITY keypadecod_tb IS
 END keypadecod_tb;
 
 ARCHITECTURE corder OF keypadecod_tb IS 
 
-    -- Component Declaration for the Unit Under Test (UUT)
-    COMPONENT keypadecod
+    -- Componeneypadecod
     PORT(
          samp_ck : IN  std_logic;
          col : OUT  std_logic_vector(4 downto 1);
