@@ -1,23 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: HW Group C
--- Engineer/Author: Richard Jimenez G. 
--- 
--- Create Date: 26.07.2024
--- Design Name: 
--- Module Name: V1_TB
--- Project Name: Logical train ticket system
--- Target Devices: 
--- Tool Versions: 
--- Description: Test bench for the FSM of the train ticket system
--- 
--- Dependencies: trainsys
--- 
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: This test bench covers a scenario where the user inputs an origin and destination, calculates the price, and makes the payment.
--- 
-----------------------------------------------------------------------------------
-
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
